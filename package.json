@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "http://github.com/Morendil/esm-lab",
   "author": "Laurent Bossavit <laurent.git@bossavit.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "openid-client-v6": "npm:openid-client@^6.1.7",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": "22.13.0"
+  }
 }
