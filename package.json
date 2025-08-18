@@ -1,0 +1,9 @@
+{
+  "name": "esm-lab",
+  "version": "0.0.1",
+  "description": "Study Jest and ESM interactions",
+  "main": "index.js",
+  "repository": "http://github.com/Morendil/esm-lab",
+  "author": "Laurent Bossavit <laurent.git@bossavit.com>",
+  "license": "MIT"
+}
