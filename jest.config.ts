@@ -4,6 +4,6 @@ import { createDefaultEsmPreset } from 'ts-jest'
 export default {
   displayName: 'ts-only',
   ...createDefaultEsmPreset({
-    tsconfig: 'tsconfig-esm.json',
+    tsconfig: 'tsconfig.json',
   }),
 } satisfies Config

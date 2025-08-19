@@ -1,7 +1,8 @@
 {
-  "extends": "./tsconfig-base.spec.json",
+  "extends": "./tsconfig-base.json",
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ESNext",
+    "esModuleInterop": true,
     "isolatedModules": false
   }
 }
