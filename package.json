@@ -6,6 +6,9 @@
   "repository": "http://github.com/Morendil/esm-lab",
   "author": "Laurent Bossavit <laurent.git@bossavit.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules $(yarn bin jest)"
+  },
   "dependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.0.5",
